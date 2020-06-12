@@ -60,6 +60,30 @@
          border:none;
          box-shadow: none;
         }
+        .sticky {
+            top: 0;
+            position: fixed;
+            height: 80px;
+            width: 100%;
+            font-size: 16px;
+           border: none;            
+         
+            }
+            img {
+                vertical-align: middle;
+                border-style: none;
+                width: 130px;
+                margin-left: 3px;
+            }
+            .navbar-toggler-icon {
+                display: inline-block;
+                width: 1.0em;
+                height: 1.5em;
+                vertical-align: middle;
+                content: "";
+                background: no-repeat center center;
+                background-size: 100% 100%;
+            }
     }
 /* team */
 @media screen and (max-width: 600px) {

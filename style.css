@@ -6,7 +6,7 @@ body,html{
 
 .top{
     width: 100%;
-    height: 480px;
+    height: 530px;
     background: url(./background01.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,6 +14,7 @@ body,html{
     background-size: cover;
     animation: slide 10s infinite;
     color: #ffffff;
+    opacity: 0.5;
     }
    .slogan{
        margin: 40px 0px;
@@ -28,7 +29,7 @@ header{
     width: 100%;
     height: 80px;
     background-color: #fff;
-    opacity: 0.7;
+    opacity: 0.9;
     padding: 0px 60px;
     } 
 header .logo{
@@ -71,12 +72,14 @@ ul li i:hover{
     border-bottom-color: #ffffff;
     margin-top: 15px;
     }
+    
 nav{
     background-color: #ffffff;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
     z-index: 9999;
     font-family: 'Balsamiq Sans', cursive !important;
+    display: none;
     }
 .bg-light {
         background-color: #ffffff!important;
@@ -84,23 +87,24 @@ nav{
 .navbar-light .navbar-toggler {
         border: none;
     }
-nav{
-    background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    }
 .navbar-light .navbar-nav .nav-link {
             color: rgba(0,0,0,.5);
-            font-size: 18px;
+            font-size: 16px;
             float: none;
+            letter-spacing: 2px;
         }    
+    .navbar{
+    }    
 
 .sticky {
-    position: fixed;
     top: 0;
+    position: fixed;
     height: 80px;
     width: 100%;
-    border-bottom: 2px solid #e1e1e1;
+    border-bottom: 0.1px solid #e1e1e1;
+    font-size: 16px;
     
+ 
     }
 .sticky + .content {
     padding-top: 120px;
@@ -110,6 +114,7 @@ nav{
     width: 100%;
     text-align: center;
     margin-top: 70px;
+    background-color: ivory;
     }
 .team h1 {
     text-transform: uppercase;
