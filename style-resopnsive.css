@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+    body,html{
+        margin: 0;
+        padding: 0;
+        }
+    
+    header{
+        width: 100%;
+        font-size: 16px;
+        /* background-color: royalblue; */
+        padding: 1px 10px;
+    }
+    header .logo{
+        margin-top: 15px;
+        width: 180px;
+        font-size: 24px;
+       }
+    header ul{
+        list-style-type: none;
+        float: right;
+        margin: 1px;
+        }
+    
+    header ul li{
+        padding: 20px 6px;
+        font-size: 24px;
+        cursor: pointer;
+        }
+  header ul li i{
+        padding-bottom: 30px;
+        color: #34444c;
+        }
+    header ul li i:hover{
+        color: rgb(252, 132, 4);
+        }
+    .tooltip{
+        display: none;
+        }
+
+
+    .top{
+        color: #fff;
+        width: 100%;
+    }
+   .Portfolio{
+    }
+}
+
+
+/* nav */
+@media screen and (max-width: 600px) {
+    .bg-light {
+        background-color: #ffffff!important;
+    }.navbar-light .navbar-toggler {
+        border: none;
+    }
+
+    nav{
+         background-color: #ffffff;
+         border:none;
+         box-shadow: none;
+        }
+    }
+/* team */
+@media screen and (max-width: 600px) {
+    .team{
+        margin-top: 10px;
+    }
+    .team h1 {
+        text-transform: uppercase;
+        font-size: 24px;
+        display: inline;
+        color: #34444c;
+        }
+    .team hr {
+        width: 10%;
+        color: #34444c;
+        border: 3px solid;
+        margin-top: 0.5rem;
+    }   
+    .team .team-intro{
+        color: #343434;
+        letter-spacing: 1px;
+    }  
+    .team .team-list{
+        margin-top: 60px;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+    }   
+    .team .team-list .dev{
+        width: 250px;
+        height: 350px;
+        border: 2px solid #eeeeee;
+        border: none;
+        margin: 0px 30px 20px 30px;
+        padding: 10px;
+        color: #34444c;
+        background-color: #ffffff;
+        cursor: pointer;
+
+    }
+    .team .team-list .dev:hover{
+        animation: swing 2s;
+    }
+    .team .team-list .dev img {
+        margin-top: 1px;
+        width: 180px;
+        border:1px solid #eeeeee;
+        border-radius:180px;
+        padding: 5px 15px;
+        opacity: 0.9;
+    }
+    .team .team-list .dev i{
+        font-size: 24px;
+        margin: 5px;
+        cursor: pointer;
+        color: #34444c;
+    }
+    .team .team-list .dev i:hover{
+        color: rgb(252, 132, 4);
+    }
+    .team .team-list .dev h5{
+        margin-top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2;
+    }
+}
+
