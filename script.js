@@ -15,7 +15,7 @@ $(document).ready(function () {
             $(window).scroll(function () {
 
                 // set distance user needs to scroll before we start fadeIn
-                if ($(this).scrollTop() > 550) {
+                if ($(this).scrollTop() > 520) {
                     $('.navbar').fadeIn();
                 } else {
                     $('.navbar').fadeOut();
@@ -38,3 +38,7 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
+
+var canvas = document.getElementsByTagName('canvas')[0];
+canvas.width = 100;
+canvas.height = 100;

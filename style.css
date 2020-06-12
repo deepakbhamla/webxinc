@@ -1,80 +1,89 @@
 body,html{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: 'Balsamiq Sans', cursive;
     }
 
-.top{
-    width: 100%;
-    height: 530px;
-    background: url(./background01.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    animation: slide 10s infinite;
-    color: #ffffff;
-    opacity: 0.5;
-    }
-   .slogan{
-       margin: 40px 0px;
-       height: 280px;
-       background: linear-gradient(to left,#34444c   50%, rgb(251,132,4) 50%); 
-      opacity: 0.5;
-   }
-.top h1{
-    text-align: center;
-    }
-header{
-    width: 100%;
-    height: 80px;
-    background-color: #fff;
-    opacity: 0.9;
-    padding: 0px 60px;
-    } 
-header .logo{
-    width: 230px;
-    margin: 10px 10px;
-   }
-header ul{
-    list-style-type: none;
-    display: flex;
-    float: right;
-    margin: 18px 40px;
-    }
+    /* header */
 
-ul li{
-    padding: 2px 10px;
-    font-size: 24px;
-    cursor: pointer;
-    }
-ul li i{
-    padding-bottom: 30px;
-    color: #34444c;
-    }
-ul li i:hover{
-    color: rgb(252, 132, 4);
-    }
-.tooltip{
-    margin-top: 10px;
-    }
-.tooltip-inner {
-    background-color: #fff !important;
-    color: #34444c;
-    opacity: 2;
-    padding:10px 20px;
-    border-radius: 1px;
-    opacity: 0.9;    
-    }
-  
-.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
-.bs-tooltip-bottom .arrow::before {
-    border-bottom-color: #ffffff;
-    margin-top: 15px;
-    }
+header{
+        width: 100%;
+        height: 80px;
+        background-color: #ffffff;
+        opacity: 0.9;
+        padding: 0px 60px;
+        display: inline-block;
+  } 
+    header .logo{
+        width: 230px;
+        margin: 10px 10px;
+       }
+    header ul{
+        list-style-type: none;
+        display: flex;
+        float: right;
+        margin: 18px 40px;
+        }
+        
+    
+    ul li{
+        padding: 2px 10px;
+        font-size: 24px;
+        cursor: pointer;
+        }
+    ul li i{
+        padding-bottom: 30px;
+        color: #34444c;
+        }
+    ul li i:hover{
+        color: rgb(252, 132, 4);
+        }
+    .tooltip{
+        margin-top: 10px;
+        }
+    .tooltip-inner {
+        background-color: #fff !important;
+        color: #34444c;
+        opacity: 2;
+        padding:10px 20px;
+        border-radius: 1px;
+        opacity: 0.9;    
+        }
+      
+    .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+    .bs-tooltip-bottom .arrow::before {
+        border-bottom-color: #ffffff;
+        margin-top: 15px;
+        }
+    
+    .large-header {
+        position: relative;
+        width: 100%;
+        background: #111;
+        background: url(./images/web.jpg) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+        margin: 0px;
+        padding: 0px;
+        height: 530px;
+        display: block;
+     }
+
+   canvas{
+       display:block;
+       overflow: hidden;
+   }
+
+/* navbar */
     
 nav{
-    background-color: #ffffff;
+    background-color:red;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
     z-index: 9999;
@@ -82,7 +91,7 @@ nav{
     display: none;
     }
 .bg-light {
-        background-color: #ffffff!important;
+        background-color: #f1f1f1!important;
     }
 .navbar-light .navbar-toggler {
         border: none;
@@ -93,9 +102,11 @@ nav{
             float: none;
             letter-spacing: 2px;
         }    
-    .navbar{
-    }    
-
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(252, 132, 4);
+}
+        
 .sticky {
     top: 0;
     position: fixed;
@@ -103,6 +114,7 @@ nav{
     width: 100%;
     border-bottom: 0.1px solid #e1e1e1;
     font-size: 16px;
+
     
  
     }
@@ -110,6 +122,9 @@ nav{
     padding-top: 120px;
 
   }
+
+  /* team section */
+
 .team{
     width: 100%;
     text-align: center;
@@ -144,8 +159,8 @@ nav{
     border: 2px solid #eeeeee;
     margin: 0px 30px 20px 30px;
     padding: 10px;
-    color: #34444c;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #343434;
     cursor: pointer;
 
 }
@@ -155,7 +170,7 @@ nav{
 .team .team-list .dev img {
     margin-top: 1px;
     width: 180px;
-    border:1px solid #eeeeee;
+    /* border:1px solid #eeeeee; */
     border-radius:180px;
     padding: 5px 15px;
     opacity: 0.9;
@@ -164,7 +179,7 @@ nav{
     font-size: 24px;
     margin: 5px;
     cursor: pointer;
-    color: #34444c;
+    color: #ffffff;
 }
 .team .team-list .dev i:hover{
     color: rgb(252, 132, 4);
@@ -174,6 +189,9 @@ nav{
     text-transform: uppercase;
     letter-spacing: 2;
 }
+
+/* portfolio section */
+
 .Portfolio{
     margin-top: 40px;
 }
@@ -194,10 +212,6 @@ nav{
    text-align: center;
 }
 
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-    color: rgb(252, 132, 4);
-}
 
 .project-grid {
     display: flex;
@@ -216,27 +230,6 @@ nav{
 
 }
 
-/* .project-grid img {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.project-grid img:hover,
-.project-grid img:focus,
-.project-grid img:active {
-    transform: scale(1.1);
-} */
-
-.hvr-underline-from-center:hover{
-    border-color: rgb(252, 132, 4)!important;
-    border-bottom: none;
-}
 .client{
     text-align: center;
     margin: 40px 0px;
