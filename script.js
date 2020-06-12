@@ -42,3 +42,4 @@ function myFunction() {
 var canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = 100;
 canvas.height = 100;
+
