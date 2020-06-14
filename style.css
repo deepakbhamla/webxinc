@@ -2,14 +2,13 @@ body,html{
     margin: 0;
     padding: 0;
     font-family: 'Titillium Web', sans-serif;
-    cursor: url('main-mouse.png'), auto;
     cursor: url(click-mouse.png) , auto;
 
     }
 
  /* scrollbar */
     ::-webkit-scrollbar {
-        width: 5px;
+        width: 1px;
       }
     ::-webkit-scrollbar-track {
         box-shadow: inset 0 0 5px #34444c; 
