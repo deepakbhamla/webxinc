@@ -54,17 +54,17 @@
                     class="fa fa-twitter-square">
                 </i>
             </li>
-            <li>
+            <li class="mobile-hide">
                 <i data-toggle="tooltip" data-placement="bottom" title="follow us on raddit"
                     class="fa fa-reddit-square"></i>
                 </i>
             </li>
-            <li>
+            <li class="mobile-hide">
                 <i data-toggle="tooltip" data-placement="bottom" title="follow us on pinterest"
                     class="fa fa-pinterest-square">
                 </i>
             </li>
-            <li>
+            <li class="mobile-hide">
                 <i data-toggle="tooltip" data-placement="bottom" title="follow us on tumblr"
                     class="fa fa-tumblr-square">
                 </i>
@@ -105,13 +105,76 @@
             </ul>
         </div>
     </nav>
-    <!-- <section class="about">
-        <h1>Who we are</h1>
-    </section> -->
+
+    <section class="about">
+        <div class="column about-text">
+            <h1>Who we are</h1>
+            <p class="team-intro">
+                We are here to provide the best services to our clients in terms of product development by combining the
+                expertise of our young and brightest employees. Our mission is to help our clients to achieve their
+                business
+                objectives by providing innovative, best-in-class products. Our Customer is our First Priority because
+                customers experience defines a brand.
+            </p>
+            <hr>
+        </div>
+        <div class="column about-img">
+            <img src="./about-image..jpg" width="450" alt="">
+        </div>
+    </section>
+
+    <!-- <div class="vision">
+        
+        <h1>Why choose us</h1>
+        <p class="team-intro">
+            We are passionate about our work. Your success is our success. We want your business to thrive and flourish
+            and our goal is to help you take your business to the next level.
+        </p>
+        <hr>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172"
+            style=" fill:#000000;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                style="mix-blend-mode: normal">
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#ffffff">
+                    <path
+                        d="M79.12,10.32c-1.89469,0 -3.44,1.54531 -3.44,3.44v26.66l-17.2,34.4v-6.02c0,-1.89469 -1.54531,-3.44 -3.44,-3.44h-44.72c-0.98094,0 -1.92156,0.44344 -2.58,1.1825c-0.65844,0.73906 -0.98094,1.70656 -0.86,2.6875l10.32,82.56c0.215,1.72 1.70656,3.01 3.44,3.01h34.4c1.89469,0 3.44,-1.53187 3.44,-3.44v-3.44h3.9775c1.42438,4.00438 5.29438,6.88 9.7825,6.88h65.36c7.59219,0 13.76,-6.16781 13.76,-13.76c0,-2.83531 -0.90031,-5.44219 -2.365,-7.6325c5.36156,-1.88125 9.245,-7.01437 9.245,-13.0075c0,-3.37281 -1.20937,-6.42312 -3.225,-8.815c3.99094,-2.40531 6.665,-6.82625 6.665,-11.825c0,-3.37281 -1.20937,-6.42312 -3.225,-8.815c3.99094,-2.40531 6.665,-6.82625 6.665,-11.825c0,-7.59219 -6.16781,-13.76 -13.76,-13.76h-50.31c2.09625,-6.63812 5.59,-18.51687 5.59,-24.08c0,-12.95375 -9.48687,-30.96 -18.8125,-30.96zM82.56,17.2h5.2675c3.15781,0 11.9325,11.97281 11.9325,24.08c0,5.38844 -4.81062,20.92219 -6.665,26.445c-0.36281,1.04813 -0.215,2.21719 0.43,3.1175c0.645,0.90031 1.69313,1.3975 2.795,1.3975h55.04c3.78938,0 6.88,3.09063 6.88,6.88c0,3.78938 -3.09062,6.88 -6.88,6.88h-3.44c-1.90812,0 -3.44,1.53188 -3.44,3.44c0,1.90813 1.53188,3.44 3.44,3.44c3.78938,0 6.88,3.09063 6.88,6.88c0,3.78938 -3.09062,6.88 -6.88,6.88h-3.44c-1.90812,0 -3.44,1.53188 -3.44,3.44c0,1.90813 1.53188,3.44 3.44,3.44c3.78938,0 6.88,3.09063 6.88,6.88c0,3.78938 -3.09062,6.88 -6.88,6.88h-6.88c-1.90812,0 -3.44,1.53188 -3.44,3.44c0,1.90813 1.53188,3.44 3.44,3.44c3.78938,0 6.88,3.09063 6.88,6.88c0,3.78938 -3.09062,6.88 -6.88,6.88h-65.36c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.90812 -1.54531,-3.44 -3.44,-3.44h-6.88v-58.48h1.72c1.30344,0 2.52625,-0.76594 3.1175,-1.935l18.92,-37.84c0.24188,-0.47031 0.3225,-0.9675 0.3225,-1.505zM14.19,72.24h37.41v75.68h-27.95zM39.56,130.72c-2.84875,0 -5.16,2.31125 -5.16,5.16c0,2.84875 2.31125,5.16 5.16,5.16c2.84875,0 5.16,-2.31125 5.16,-5.16c0,-2.84875 -2.31125,-5.16 -5.16,-5.16z">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </div> -->
+
+    <section class="feature">
+        <h2>why choose us</h2>
+        <hr>
+        <div class="item-list">
+            <div class="item ">
+                <i class="fa fa-thumbs-up hvr-fade hvr-glow"></i>
+                <p>Award winning service </p>
+            </div>
+            <div class="item">
+                <i class="fa fa-laptop hvr-fade hvr-glow"></i>
+                <p>Amazing concept and designes</p>
+            </div>
+            <div class="item">
+                <i class="fa fa-cog hvr-fade hvr-glow"></i>
+                <p>Best innovation and technology</p>
+            </div>
+            <div class="item">
+                <i class="hvr-glow hvr-fade hvr-float fa fa-users "></i>
+                <p>commitment to work</p>
+            </div>
+
+        </div>
+
+
+    </section>
 
     <section class="team">
         <h1>Meet the team</h1>
-
         <p class="team-intro">meet our exceptionally talented team of Developer say Hi </p>
         <hr>
         <div class="team-list">
@@ -133,7 +196,6 @@
                 <i class="fa fa-github-square"></i>
                 <i class="fa fa-linkedin-square"></i>
             </div>
-
             <div class="dev">
                 <img src="./rohit.png" alt="">
                 <h5>Rohit Ahuja</h5>
@@ -153,7 +215,7 @@
         </p>
         <hr>
         <div class="project-grid">
-            <img class="hvr-grow" src="./background01.jpg" alt="">
+            <img class="hvr-grow " src="./background01.jpg" alt="">
             <img class="hvr-grow" src="./background01.jpg" alt="">
             <img class="hvr-grow" src="./background01.jpg" alt="">
             <img class="hvr-grow" src="./background01.jpg" alt="">
@@ -161,6 +223,55 @@
             <img class="hvr-grow" src="./background01.jpg" alt="">
 
         </div>
+
+    </section>
+
+    <section class="customer">
+        <h2>Our customers</h2>
+        <hr>
+        <div class="customer-list">
+            <p class="">Be our first customer </p>
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <h1>contact us</h1>
+        <p class='team-intro'>do not hesitate to contact us</p>
+        <hr>
+        <div class="column contact-address">
+            <div class="container">
+                <form action="">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="email" name="email" placeholder="Your Email..">
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:80px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+        <div class="column contact-form">
+            <h3>Our corporate address</h3>
+            <p class="team-intro">
+                <i class="fa fa-map-marker"></i>
+                Sector 57 Gurugram Haryana India 122103
+            </p>
+            <p class="team-intro">
+                <i class="fa fa-at"></i>
+                webxinc@gmail.com
+            </p>
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-twitter-square"></i></a>
+            <a href=""><i class="fa fa-reddit-square"></i></a>
+            <a href=""><i class="fa fa-pinterest-square"></i></a>
+            <a href=""> <i class="fa fa-tumblr-square"></i></a>
+
+        </div>
+
+
 
     </section>
 
@@ -176,6 +287,7 @@
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <!-- local js -->
     <script src="./script.js"></script>
+    <script src="./script1.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js
